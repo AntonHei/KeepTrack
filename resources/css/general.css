@@ -1,0 +1,90 @@
+.wrapper {
+    position: relative;
+    overflow-x: scroll;
+    width: auto;
+    min-height: 100%;
+}
+
+input:not([type="submit"]), textarea {
+    background-color: rgb(200, 200, 200);
+    color: rgb(75, 75, 75);
+    border: none;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Lato', Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+input[type="submit"], button {
+    background-color: rgb(75, 75, 75);
+    border: none;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Lato', Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+input[type="submit"], button {
+    cursor: pointer;
+}
+
+input.edit {
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Lato', Tahoma, Verdana, Helvetica, sans-serif;
+    color: white;
+    padding: 0;
+    font-size: initial;
+    letter-spacing: inherit;
+    font-weight: initial;
+
+    border-radius: 0;
+}
+
+input.edit:focus {
+    outline: 2px solid rgba(50, 50, 50, 0.75);
+}
+
+.cardRoot {
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgb(40, 40, 40);
+    width: 300px;
+
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 25px 25px 25px;
+}
+
+#addGoalRoot {
+    display: inline-block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    font-size: 5px;
+}
+
+.cardRoot button.add {
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    font-size: 5px;
+}
+
+.cardRoot button.add .material-icons {
+    font-size: 17px;
+}
+
+.card {
+    min-height: 25px;
+    background-color: rgb(75, 75, 75);
+
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
